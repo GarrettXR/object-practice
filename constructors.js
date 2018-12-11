@@ -78,7 +78,51 @@ function Human(obj){
   }
 }
 
+// class Dog(obj){
+//   constructor(obj){
+//     if (obj) { 
+//       if (obj.hasOwnProperty('status')) {
+//         this.status = obj.status
+//       } else {
+//         this.status = 'normal'
+//       }
+//       if (obj.hasOwnProperty('color')) {
+//         this.color = obj.color
+//       } else {
+//         this.color = obj.color
+//       }
+//       if (obj.hasOwnProperty('hungry')) {
+//         this.hungry = obj.hungry
+//       } else {
+//         this.hungry = true
+//       }
+//     } else {
+//       this.status = 'normal'
+//       this.hungry = true
+//     }
+//   }
+// }
 
+// class Human(obj){
+//   constructor(obj){
+//     this.pet = function(dog){
+//     dog.status = 'happy'
+//     }
+//     this.feed =function(dog){
+//     dog.hungry = false
+//     }
+//     if (obj){
+//       if (obj.hasOwnProperty('cool')) {
+//         this.cool = obj.cool
+//       } else {
+//         this.cool = false
+//       }
+
+//     } else {
+//       this.cool = false
+//     }
+//   }
+// }
 //        __
 //   ____/ /___  ____ ______
 //  / __  / __ \/ __ `/ ___/
